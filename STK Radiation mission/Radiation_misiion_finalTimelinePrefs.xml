@@ -1,0 +1,69 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.3.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "Radiation_misiion_final AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/Radiation_misiion_final" Type = "IntervalList">
+                <Interval Name = "Radiation_misiion_final AvailabilityIntervals" StartTime = "22 Feb 2018 09:00:00.000" StopTime = "9 Nov 2018 09:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Irkutsk_Station;/Application/STK/Scenario/Radiation_misiion_final/Satellite/Satellite1" Type = "IntervalList">
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "22 Feb 2018 20:22:55.031" StopTime = "23 Feb 2018 05:12:31.807" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "23 Feb 2018 16:04:54.892" StopTime = "24 Feb 2018 01:09:07.649" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "24 Feb 2018 14:36:37.272" StopTime = "24 Feb 2018 20:25:44.883" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "24 Feb 2018 22:53:06.773" StopTime = "25 Feb 2018 04:11:03.084" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "25 Feb 2018 18:11:45.872" StopTime = "26 Feb 2018 03:15:05.104" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "26 Feb 2018 14:04:50.936" StopTime = "26 Feb 2018 22:57:18.641" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Feb 2018 20:24:57.979" StopTime = "28 Feb 2018 05:09:17.750" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Feb 2018 16:05:39.445" StopTime = "1 Mar 2018 01:10:10.450" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "1 Mar 2018 14:00:44.471" StopTime = "1 Mar 2018 19:41:32.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-ScanEx_Moscow_Station-To-Facility-ScanEx_Irkutsk_Station AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Moscow_Station;/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Irkutsk_Station" Type = "IntervalList" />
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Moscow_Station;/Application/STK/Scenario/Radiation_misiion_final/Satellite/Satellite1" Type = "IntervalList">
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "22 Feb 2018 20:06:21.002" StopTime = "23 Feb 2018 05:04:46.266" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "23 Feb 2018 20:11:53.311" StopTime = "24 Feb 2018 00:00:28.647" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "24 Feb 2018 02:44:41.301" StopTime = "24 Feb 2018 09:13:52.143" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "24 Feb 2018 22:11:34.839" StopTime = "25 Feb 2018 07:12:12.469" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "25 Feb 2018 18:09:59.077" StopTime = "26 Feb 2018 02:49:14.581" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Feb 2018 00:22:52.118" StopTime = "27 Feb 2018 09:08:39.165" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Feb 2018 20:06:49.531" StopTime = "28 Feb 2018 05:06:02.245" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Feb 2018 19:41:42.241" StopTime = "1 Mar 2018 00:08:36.001" />
+                <Interval Name = "Facility-ScanEx_Moscow_Station-To-Satellite-Satellite1 AccessIntervals" StartTime = "1 Mar 2018 02:48:28.836" StopTime = "1 Mar 2018 08:43:35.641" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Radiation_misiion_final/Satellite/Satellite1/Transmitter/Transmitter1;/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Irkutsk_Station/Sensor/Sensor1/Receiver/Receiver1" Type = "IntervalList">
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "22 Feb 2018 20:22:28.553" StopTime = "23 Feb 2018 05:13:45.823" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "23 Feb 2018 16:04:29.329" StopTime = "24 Feb 2018 01:09:59.116" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "24 Feb 2018 14:30:22.473" StopTime = "24 Feb 2018 20:27:19.315" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "24 Feb 2018 22:51:30.443" StopTime = "25 Feb 2018 04:19:26.448" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "25 Feb 2018 18:11:12.322" StopTime = "26 Feb 2018 03:16:11.055" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "26 Feb 2018 14:03:38.115" StopTime = "26 Feb 2018 22:58:11.960" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "27 Feb 2018 20:24:33.198" StopTime = "28 Feb 2018 05:11:17.871" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Feb 2018 16:05:12.179" StopTime = "1 Mar 2018 01:11:04.261" />
+                <Interval Name = "Satellite-Satellite1-Transmitter-Transmitter1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "1 Mar 2018 13:53:39.615" StopTime = "1 Mar 2018 19:41:31.874" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Irkutsk_Station/Sensor/Sensor1;/Application/STK/Scenario/Radiation_misiion_final/Satellite/Satellite1" Type = "IntervalList">
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "22 Feb 2018 20:22:28.547" StopTime = "23 Feb 2018 05:13:45.827" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "23 Feb 2018 16:04:29.332" StopTime = "24 Feb 2018 01:09:59.115" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "24 Feb 2018 14:30:22.768" StopTime = "24 Feb 2018 20:27:19.285" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "24 Feb 2018 22:51:30.417" StopTime = "25 Feb 2018 04:19:26.697" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "25 Feb 2018 18:11:12.319" StopTime = "26 Feb 2018 03:16:11.055" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "26 Feb 2018 14:03:38.117" StopTime = "26 Feb 2018 22:58:11.958" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "27 Feb 2018 20:24:33.196" StopTime = "28 Feb 2018 05:11:17.883" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "28 Feb 2018 16:05:12.182" StopTime = "1 Mar 2018 01:11:04.259" />
+                <Interval Name = "Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-To-Satellite-Satellite1 AccessIntervals" StartTime = "1 Mar 2018 13:53:39.924" StopTime = "1 Mar 2018 19:41:31.874" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/Radiation_misiion_final/Satellite/Satellite1;/Application/STK/Scenario/Radiation_misiion_final/Facility/ScanEx_Irkutsk_Station/Sensor/Sensor1/Receiver/Receiver1" Type = "IntervalList">
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "22 Feb 2018 20:22:28.553" StopTime = "23 Feb 2018 05:13:45.823" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "23 Feb 2018 16:04:29.329" StopTime = "24 Feb 2018 01:09:59.116" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "24 Feb 2018 14:30:22.473" StopTime = "24 Feb 2018 20:27:19.315" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "24 Feb 2018 22:51:30.443" StopTime = "25 Feb 2018 04:19:26.448" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "25 Feb 2018 18:11:12.322" StopTime = "26 Feb 2018 03:16:11.055" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "26 Feb 2018 14:03:38.115" StopTime = "26 Feb 2018 22:58:11.960" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "27 Feb 2018 20:24:33.198" StopTime = "28 Feb 2018 05:11:17.871" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "28 Feb 2018 16:05:12.179" StopTime = "1 Mar 2018 01:11:04.261" />
+                <Interval Name = "Satellite-Satellite1-To-Facility-ScanEx_Irkutsk_Station-Sensor-Sensor1-Receiver-Receiver1 AccessIntervals" StartTime = "1 Mar 2018 13:53:39.615" StopTime = "1 Mar 2018 19:41:31.874" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/Radiation_misiion_final" GlobalStartOffset = "0.000000" GlobalStartTime = "22 Feb 2018 09:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "9 Nov 2018 09:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

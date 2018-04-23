@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.nomagic.com/magicdraw/UML/2.5">
+  <uml:Profile xmi:id="_11_5EAPbeta_be00301_1147434586638_637562_1900" ID="_11_5EAPbeta_be00301_1147434586638_637562_1900" name="SysML">
+    <appliedStereotypeInstance xmi:id="_12_5EAPbeta2_be00301_1177500409487_482544_260" ID="_12_5EAPbeta2_be00301_1177500409487_482544_260">
+      <classifier xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+    </appliedStereotypeInstance>
+    <packagedElement xsi:type="uml:Package" xmi:id="_12_0EAPbeta_be00301_1162212177466_124550_157_convert" ID="_12_0EAPbeta_be00301_1162212177466_124550_157_convert" name="Blocks">
+      <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147430241871_662816_1191" ID="_11_5EAPbeta_be00301_1147430241871_662816_1191" name="E_extension_ValueType_base_DataType">
+        <memberEnd href="#_11_5EAPbeta_be00301_1147430241871_466358_1193"/>
+        <memberEnd href="#_11_5EAPbeta_be00301_1147430241871_22153_1192"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147430241871_466358_1193" ID="_11_5EAPbeta_be00301_1147430241871_466358_1193" name="extension_ValueType" visibility="public" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147430239267_179145_1189"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147430239267_179145_1189" ID="_11_5EAPbeta_be00301_1147430239267_179145_1189" name="ValueType">
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147430241871_22153_1192" ID="_11_5EAPbeta_be00301_1147430241871_22153_1192" name="base_DataType" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885376_903292_7939"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147430364958_360156_1425" ID="_11_5EAPbeta_be00301_1147430364958_360156_1425" name="unit" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885251_933969_7897"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147430349926_544971_1421" ID="_11_5EAPbeta_be00301_1147430349926_544971_1421" name="quantityKind" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885251_933969_7897"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_11_5EAPbeta_be00301_1147430241871_466358_1193"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Package" xmi:id="_12_0EAPbeta_be00301_1162212161323_676208_154_convert" ID="_12_0EAPbeta_be00301_1162212161323_676208_154_convert" name="ModelElements">
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147420760998_43940_227" ID="_11_5EAPbeta_be00301_1147420760998_43940_227" name="View">
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420763311_462767_230" ID="_11_5EAPbeta_be00301_1147420763311_462767_230" name="base_Package" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885298_713292_7913"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420957140_792077_477" ID="_11_5EAPbeta_be00301_1147420957140_792077_477" name="viewPoint" visibility="public">
+          <type xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147420812402_281263_364"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_5beta_17530432_1382588275235_665995_12733" ID="_17_0_5beta_17530432_1382588275235_665995_12733" name="stakeholder" visibility="public">
+          <type xsi:type="uml:Stereotype" href="#_17_0_5beta_17530432_1382587450944_361333_12499"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_5beta_17530432_1382588389513_347173_12820" ID="_17_0_5beta_17530432_1382588389513_347173_12820" name="base_Class" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885343_144138_7929"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_17_0_5beta_17530432_1382588389513_936427_12821"/>
+        <_extensionEndOfType href="#_11_5EAPbeta_be00301_1147420763311_509198_231"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147420812402_281263_364" ID="_11_5EAPbeta_be00301_1147420812402_281263_364" name="Viewpoint">
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420814215_606310_367" ID="_11_5EAPbeta_be00301_1147420814215_606310_367" name="base_Class" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885343_144138_7929"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420838900_915106_455_14" ID="_11_5EAPbeta_be00301_1147420838900_915106_455_14" name="stakeholder" visibility="public">
+          <type xsi:type="uml:Stereotype" href="#_17_0_5beta_17530432_1382587450944_361333_12499"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420878016_677414_461" ID="_11_5EAPbeta_be00301_1147420878016_677414_461" name="purpose" visibility="public">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420894530_181140_465_14" ID="_11_5EAPbeta_be00301_1147420894530_181140_465_14" name="concernList" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884825_217290_7749"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420904264_380587_469" ID="_11_5EAPbeta_be00301_1147420904264_380587_469" name="language" visibility="public">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147420919516_980495_473_14" ID="_11_5EAPbeta_be00301_1147420919516_980495_473_14" name="method" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884715_427797_7700"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_5beta_17530432_1382588574654_793568_12907" ID="_17_0_5beta_17530432_1382588574654_793568_12907" name="presentation" visibility="public">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_4_2_ff3038a_1384451700752_489659_6724" ID="_17_0_4_2_ff3038a_1384451700752_489659_6724" name="concern" visibility="public">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_11_5EAPbeta_be00301_1147420814215_82373_368"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147420814215_304595_366" ID="_11_5EAPbeta_be00301_1147420814215_304595_366" name="E_extension_Viewpoint_base_Class">
+        <memberEnd href="#_11_5EAPbeta_be00301_1147420814215_82373_368"/>
+        <memberEnd href="#_11_5EAPbeta_be00301_1147420814215_606310_367"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147420814215_82373_368" ID="_11_5EAPbeta_be00301_1147420814215_82373_368" name="extension_Viewpoint" visibility="public" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147420812402_281263_364"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_17_0_5beta_17530432_1382587450944_361333_12499" ID="_17_0_5beta_17530432_1382587450944_361333_12499" name="Stakeholder">
+        <ownedAttribute xmi:id="_17_0_5beta_17530432_1382587564934_541023_12604" ID="_17_0_5beta_17530432_1382587564934_541023_12604" name="base_Classifier" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884514_638424_7612"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_5beta_17530432_1382587585370_594015_12622" ID="_17_0_5beta_17530432_1382587585370_594015_12622" name="concern" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884825_217290_7749"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_17_0_4_2_ff3038a_1384456764125_688085_4221" ID="_17_0_4_2_ff3038a_1384456764125_688085_4221" name="concernList" visibility="public">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884825_217290_7749"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_17_0_5beta_17530432_1382587564934_664698_12605"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_17_0_5beta_17530432_1382587564934_321604_12603" ID="_17_0_5beta_17530432_1382587564934_321604_12603" name="E_extension_Stakeholder_base_Classifier">
+        <memberEnd href="#_17_0_5beta_17530432_1382587564934_541023_12604"/>
+        <memberEnd href="#_17_0_5beta_17530432_1382587564934_664698_12605"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_17_0_5beta_17530432_1382587564934_664698_12605" ID="_17_0_5beta_17530432_1382587564934_664698_12605" name="extension_Stakeholder" visibility="public" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_17_0_5beta_17530432_1382587450944_361333_12499"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_17_0_5beta_17530432_1382588389513_816262_12819" ID="_17_0_5beta_17530432_1382588389513_816262_12819" name="E_extension_View_base_Class">
+        <memberEnd href="#_17_0_5beta_17530432_1382588389513_347173_12820"/>
+        <memberEnd href="#_17_0_5beta_17530432_1382588389513_936427_12821"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_17_0_5beta_17530432_1382588389513_936427_12821" ID="_17_0_5beta_17530432_1382588389513_936427_12821" name="extension_View" visibility="public" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147420760998_43940_227"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" xmi:id="_17_0_4_2_ff3038a_1384457418031_542687_4487" ID="_17_0_4_2_ff3038a_1384457418031_542687_4487" name="Deprecated">
+        <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147420763311_97227_229" ID="_11_5EAPbeta_be00301_1147420763311_97227_229" name="E_extension_View_base_Package">
+          <memberEnd href="#_11_5EAPbeta_be00301_1147420763311_509198_231"/>
+          <memberEnd href="#_11_5EAPbeta_be00301_1147420763311_462767_230"/>
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147420763311_509198_231" ID="_11_5EAPbeta_be00301_1147420763311_509198_231" name="extension_View" visibility="public" aggregation="composite">
+            <type xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147420760998_43940_227"/>
+          </ownedEnd>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Package" xmi:id="_17_0_4_2_ff3038a_1383664741266_15929_43395" ID="_17_0_4_2_ff3038a_1383664741266_15929_43395" name="Libraries">
+      <appliedStereotypeInstance xmi:id="_17_0_4_2_ff3038a_1383664758524_222292_43399" ID="_17_0_4_2_ff3038a_1383664758524_222292_43399">
+        <classifier xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_39100_29"/>
+      </appliedStereotypeInstance>
+      <packagedElement xsi:type="uml:Package" xmi:id="_17_0_2_136f03d9_1344498413266_378771_11852" ID="_17_0_2_136f03d9_1344498413266_378771_11852" name="PrimitiveValueTypes">
+        <appliedStereotypeInstance xmi:id="_17_0_2_136f03d9_1345454449583_14652_11852" ID="_17_0_2_136f03d9_1345454449583_14652_11852">
+          <classifier xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+          <classifier xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_39100_29"/>
+        </appliedStereotypeInstance>
+        <packagedElement xsi:type="uml:DataType" xmi:id="_16_5_1_12c903cb_1245415335546_479030_4092" ID="_16_5_1_12c903cb_1245415335546_479030_4092" name="String">
+          <appliedStereotypeInstance xmi:id="_16_5_1_12c903cb_1245415335562_918044_4127" ID="_16_5_1_12c903cb_1245415335562_918044_4127">
+            <classifier xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147430239267_179145_1189"/>
+          </appliedStereotypeInstance>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </uml:Profile>
+  <uml:Package xmi:id="_18_0beta_9150291_1392280884421_448498_10673" ID="_18_0beta_9150291_1392280884421_448498_10673" name="MD Customization for ViewsViewpoints">
+    <appliedStereotypeInstance xmi:id="_18_0beta_9150291_1393570036939_295808_5144" ID="_18_0beta_9150291_1393570036939_295808_5144">
+      <classifier xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+    </appliedStereotypeInstance>
+    <packagedElement xsi:type="uml:Profile" xmi:id="_18_0beta_8c6027f_1392826080392_958069_4944" ID="_18_0beta_8c6027f_1392826080392_958069_4944" name="DocBook Profile">
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_0beta_9150291_1392290067481_33752_4359" ID="_18_0beta_9150291_1392290067481_33752_4359" name="View" _extensionEndOfType="_18_0beta_9150291_1392290073300_333225_4362 _18_0beta_9150291_1392290106340_841128_4410">
+        <generalization xmi:id="_18_0beta_9150291_1392290106319_256707_4407" ID="_18_0beta_9150291_1392290106319_256707_4407">
+          <general xsi:type="uml:Stereotype" href="#_11_5EAPbeta_be00301_1147420760998_43940_227"/>
+        </generalization>
+        <generalization xmi:id="_18_0beta_9150291_1393569989572_31851_5143" ID="_18_0beta_9150291_1393569989572_31851_5143">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290073299_424644_4361" ID="_18_0beta_9150291_1392290073299_424644_4361" name="base_Class" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885343_144138_7929"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290106340_691224_4409" ID="_18_0beta_9150291_1392290106340_691224_4409" name="base_Package" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885298_713292_7913"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290115432_487113_4413" ID="_18_0beta_9150291_1392290115432_487113_4413" name="ID" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_0beta_9150291_1392290073297_939783_4360" ID="_18_0beta_9150291_1392290073297_939783_4360" memberEnd="_18_0beta_9150291_1392290073299_424644_4361 _18_0beta_9150291_1392290073300_333225_4362">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_0beta_9150291_1392290073300_333225_4362" ID="_18_0beta_9150291_1392290073300_333225_4362" name="extension_" visibility="private" type="_18_0beta_9150291_1392290067481_33752_4359" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_0beta_9150291_1392290106340_289548_4408" ID="_18_0beta_9150291_1392290106340_289548_4408" memberEnd="_18_0beta_9150291_1392290106340_691224_4409 _18_0beta_9150291_1392290106340_841128_4410">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_0beta_9150291_1392290106340_841128_4410" ID="_18_0beta_9150291_1392290106340_841128_4410" name="extension_" visibility="private" type="_18_0beta_9150291_1392290067481_33752_4359" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_0beta_9150291_1392290247349_484749_4445" ID="_18_0beta_9150291_1392290247349_484749_4445" name="MetaInfo" _extensionEndOfType="_18_0beta_9150291_1392290251112_393088_4448">
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290251112_585937_4447" ID="_18_0beta_9150291_1392290251112_585937_4447" name="base_Class" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885343_144138_7929"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290288491_543857_4471" ID="_18_0beta_9150291_1392290288491_543857_4471" name="Document Title" visibility="private">
+          <type xsi:type="uml:DataType" href="#_16_5_1_12c903cb_1245415335546_479030_4092"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290288491_786888_4472" ID="_18_0beta_9150291_1392290288491_786888_4472" name="Author" visibility="private"/>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290288492_771417_4473" ID="_18_0beta_9150291_1392290288492_771417_4473" name="Issue ID" visibility="private">
+          <type xsi:type="uml:DataType" href="#_16_5_1_12c903cb_1245415335546_479030_4092"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290288492_194174_4474" ID="_18_0beta_9150291_1392290288492_194174_4474" name="Publishing Date" visibility="private">
+          <type xsi:type="uml:DataType" href="#_16_5_1_12c903cb_1245415335546_479030_4092"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290288492_909618_4475" ID="_18_0beta_9150291_1392290288492_909618_4475" name="Copyrigth Date" visibility="private">
+          <type xsi:type="uml:DataType" href="#_16_5_1_12c903cb_1245415335546_479030_4092"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_0beta_9150291_1392290251112_705392_4446" ID="_18_0beta_9150291_1392290251112_705392_4446" memberEnd="_18_0beta_9150291_1392290251112_585937_4447 _18_0beta_9150291_1392290251112_393088_4448">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_0beta_9150291_1392290251112_393088_4448" ID="_18_0beta_9150291_1392290251112_393088_4448" name="extension_" visibility="private" type="_18_0beta_9150291_1392290247349_484749_4445" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_0beta_9150291_1392290156910_500838_4417" ID="_18_0beta_9150291_1392290156910_500838_4417" name="Note" _extensionEndOfType="_18_0beta_9150291_1392290164161_918496_4420">
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290164161_985515_4419" ID="_18_0beta_9150291_1392290164161_985515_4419" name="base_Class" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885343_144138_7929"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_0beta_9150291_1392290211790_258547_4442" ID="_18_0beta_9150291_1392290211790_258547_4442" name="Text" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_0beta_9150291_1392290164160_317654_4418" ID="_18_0beta_9150291_1392290164160_317654_4418" memberEnd="_18_0beta_9150291_1392290164161_985515_4419 _18_0beta_9150291_1392290164161_918496_4420">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_0beta_9150291_1392290164161_918496_4420" ID="_18_0beta_9150291_1392290164161_918496_4420" name="extension_" visibility="private" type="_18_0beta_9150291_1392290156910_500838_4417" aggregation="composite"/>
+      </packagedElement>
+    </packagedElement>
+  </uml:Package>
+  <uml:Package xmi:id="magicdraw_uml_standard_profile_v_0001" ID="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile">
+    <owningPackage href="PROJECT-7e6e7039-e5b5-42d8-a08d-9a2cc06fa4df?resource=com.nomagic.magicdraw.uml_umodel.model#eee_1045467100313_135436_1"/>
+    <appliedStereotypeInstance xmi:id="_12_1_8f90291_1174411598625_504587_98" ID="_12_1_8f90291_1174411598625_504587_98">
+      <classifier xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+    </appliedStereotypeInstance>
+    <packagedElement xsi:type="uml:Profile" xmi:id="_be00301_1073394351331_445580_2" ID="_be00301_1073394351331_445580_2" name="MagicDraw Profile">
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_1_8f90291_1173963323875_662612_98" ID="_12_1_8f90291_1173963323875_662612_98" name="auxiliaryResource">
+        <generalization xmi:id="_15_0_8f90291_1196866634537_680603_98" ID="_15_0_8f90291_1196866634537_680603_98">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_12_1_8f90291_1173963939937_52316_99" ID="_12_1_8f90291_1173963939937_52316_99" name="base_Package" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885298_713292_7913"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_12_1_8f90291_1173963939937_399630_100"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772098_323897_274" ID="_10_0EAPbeta_be00301_1123081772098_323897_274">
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081772108_624594_276"/>
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772108_624594_276" ID="_10_0EAPbeta_be00301_1123081772108_624594_276" name="extension_InvisibleStereotype" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_12_1_8f90291_1173963939937_323574_98" ID="_12_1_8f90291_1173963939937_323574_98">
+        <memberEnd href="#_12_1_8f90291_1173963939937_399630_100"/>
+        <memberEnd href="#_12_1_8f90291_1173963939937_52316_99"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_1_8f90291_1173963939937_399630_100" ID="_12_1_8f90291_1173963939937_399630_100" name="extension_auxiliaryResource" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_9_0_be00301_1108044721245_236588_411" ID="_9_0_be00301_1108044721245_236588_411" name="InvisibleStereotype">
+        <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772098_411862_275" ID="_10_0EAPbeta_be00301_1123081772098_411862_275" name="base_Element" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884807_371561_7741"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_10_0EAPbeta_be00301_1123081772108_624594_276"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Model" xmi:id="_9_0_be00301_1108053761194_467635_11463" ID="_9_0_be00301_1108053761194_467635_11463" name="UML2 Metamodel">
+      <appliedStereotypeInstance xmi:id="_10_0EAPbeta_be00301_1123081771126_233373_95" ID="_10_0EAPbeta_be00301_1123081771126_233373_95">
+        <classifier xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_601240_36"/>
+      </appliedStereotypeInstance>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885298_713292_7913" ID="_9_0_62a020a_1105704885298_713292_7913" name="Package"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884807_371561_7741" ID="_9_0_62a020a_1105704884807_371561_7741" name="Element"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704920340_825592_9329" ID="_9_0_62a020a_1105704920340_825592_9329" name="Model"/>
+      <packagedElement xsi:type="uml:Package" xmi:id="_12_0EAPbeta_be00301_1157529392394_202602_1" ID="_12_0EAPbeta_be00301_1157529392394_202602_1" name="PrimitiveTypes">
+        <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_9_0_2_91a0295_1110274713995_297054_0" ID="_9_0_2_91a0295_1110274713995_297054_0" name="String"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885343_144138_7929" ID="_9_0_62a020a_1105704885343_144138_7929" name="Class"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884514_638424_7612" ID="_9_0_62a020a_1105704884514_638424_7612" name="Classifier"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884825_217290_7749" ID="_9_0_62a020a_1105704884825_217290_7749" name="Comment"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884715_427797_7700" ID="_9_0_62a020a_1105704884715_427797_7700" name="Behavior"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885376_903292_7939" ID="_9_0_62a020a_1105704885376_903292_7939" name="DataType"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885251_933969_7897" ID="_9_0_62a020a_1105704885251_933969_7897" name="InstanceSpecification"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Profile" xmi:id="_9_0_be00301_1108050582343_527400_10847" ID="_9_0_be00301_1108050582343_527400_10847" name="StandardProfile">
+      <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772478_425419_349" ID="_10_0EAPbeta_be00301_1123081772478_425419_349">
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081772478_585204_351"/>
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081772478_490431_350"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772478_585204_351" ID="_10_0EAPbeta_be00301_1123081772478_585204_351" name="extension_modelLibrary" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_39100_29"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="magicdraw_1046861421236_39100_29" ID="magicdraw_1046861421236_39100_29" name="ModelLibrary">
+        <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772478_490431_350" ID="_10_0EAPbeta_be00301_1123081772478_490431_350" name="base_Package" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885298_713292_7913"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_10_0EAPbeta_be00301_1123081772478_585204_351"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="magicdraw_1046861421236_601240_36" ID="magicdraw_1046861421236_601240_36" name="Metamodel">
+        <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081771136_271406_98" ID="_10_0EAPbeta_be00301_1123081771136_271406_98" name="base_Model" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704920340_825592_9329"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_10_0EAPbeta_be00301_1123081771136_580423_99"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081771136_824883_97" ID="_10_0EAPbeta_be00301_1123081771136_824883_97">
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081771136_580423_99"/>
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081771136_271406_98"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081771136_580423_99" ID="_10_0EAPbeta_be00301_1123081771136_580423_99" name="extension_metamodel" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_601240_36"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>

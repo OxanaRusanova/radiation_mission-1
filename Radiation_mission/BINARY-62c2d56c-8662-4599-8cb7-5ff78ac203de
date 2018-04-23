@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<mdOwnedViews>
+	<mdElement elementClass='DiagramFrame' xmi:id='_18_5_3_128a0557_1521726873096_96862_16632'>
+		<elementID xmi:idref='_18_5_3_128a0557_1521726873065_260141_16609'/>
+		<geometry>5, 5, 1255, 790</geometry>
+		<compartment compartmentID='TAGGED_VALUES'/>
+		<mdOwnedViews/>
+	</mdElement>
+</mdOwnedViews>

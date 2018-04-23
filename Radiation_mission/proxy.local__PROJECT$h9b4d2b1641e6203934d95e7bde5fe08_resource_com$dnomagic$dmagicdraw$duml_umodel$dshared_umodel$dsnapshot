@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.nomagic.com/magicdraw/UML/2.5">
+  <uml:Package xmi:id="_12_0EAPbeta_be00301_1156851270584_552173_1" ID="_12_0EAPbeta_be00301_1156851270584_552173_1" name="MD Customization for SysML">
+    <appliedStereotypeInstance xmi:id="_12_5EAPbeta2_be00301_1177500976392_281866_2496" ID="_12_5EAPbeta2_be00301_1177500976392_281866_2496">
+      <classifier xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+    </appliedStereotypeInstance>
+    <packagedElement xsi:type="uml:Profile" xmi:id="_12_0EAPbeta_be00301_1161869751943_478405_658_convert" ID="_12_0EAPbeta_be00301_1161869751943_478405_658_convert" name="additional_stereotypes">
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_15_0_be00301_1199377756297_348405_2678" ID="_15_0_be00301_1199377756297_348405_2678" name="PartProperty" _extensionEndOfType="_15_0_be00301_1199377759595_954063_2682">
+        <generalization xmi:id="_15_0_be00301_1199377767274_771321_2703" ID="_15_0_be00301_1199377767274_771321_2703" general="_11_5EAPbeta_be00301_1147424447149_890357_1052"/>
+        <ownedAttribute xmi:id="_15_0_be00301_1199377759595_851315_2681" ID="_15_0_be00301_1199377759595_851315_2681" name="base_Property" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_15_0_be00301_1199377759594_293302_2680" ID="_15_0_be00301_1199377759594_293302_2680" memberEnd="_15_0_be00301_1199377759595_954063_2682 _15_0_be00301_1199377759595_851315_2681">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_15_0_be00301_1199377759595_954063_2682" ID="_15_0_be00301_1199377759595_954063_2682" name="extension_" visibility="private" type="_15_0_be00301_1199377756297_348405_2678" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147424449672_945552_1054" ID="_11_5EAPbeta_be00301_1147424449672_945552_1054" memberEnd="_11_5EAPbeta_be00301_1147424449672_242892_1056 _11_5EAPbeta_be00301_1147424449672_715796_1055">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147424449672_242892_1056" ID="_11_5EAPbeta_be00301_1147424449672_242892_1056" name="extension_" visibility="private" type="_11_5EAPbeta_be00301_1147424447149_890357_1052" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_15_0_be00301_1199378034525_799087_3098" ID="_15_0_be00301_1199378034525_799087_3098" memberEnd="_15_0_be00301_1199378034525_582656_3100 _15_0_be00301_1199378034525_138530_3099">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_15_0_be00301_1199378034525_582656_3100" ID="_15_0_be00301_1199378034525_582656_3100" name="extension_" visibility="private" type="_15_0_be00301_1199378032543_992832_3096" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147424447149_890357_1052" ID="_11_5EAPbeta_be00301_1147424447149_890357_1052" name="BlockProperty" _extensionEndOfType="_11_5EAPbeta_be00301_1147424449672_242892_1056">
+        <generalization xmi:id="_15_1EAPbeta_be00301_1202132186169_203757_2974" ID="_15_1EAPbeta_be00301_1202132186169_203757_2974">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147424449672_715796_1055" ID="_11_5EAPbeta_be00301_1147424449672_715796_1055" name="base_Property" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_15_0_be00301_1199378020836_340320_3071" ID="_15_0_be00301_1199378020836_340320_3071" name="SharedProperty" _extensionEndOfType="_15_0_be00301_1199378022819_936555_3075">
+        <generalization xmi:id="_15_0_be00301_1199378050685_647026_3121" ID="_15_0_be00301_1199378050685_647026_3121" general="_15_0_be00301_1199377821718_195894_2894"/>
+        <ownedAttribute xmi:id="_15_0_be00301_1199378022819_27464_3074" ID="_15_0_be00301_1199378022819_27464_3074" name="base_Property" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_0EAPbeta_be00301_1161355503976_51059_459" ID="_12_0EAPbeta_be00301_1161355503976_51059_459" name="ConstraintParameter" _extensionEndOfType="_12_0EAPbeta_be00301_1161355559717_804485_534">
+        <generalization xmi:id="_12_0EAPbeta_be00301_1161355536683_679093_486" ID="_12_0EAPbeta_be00301_1161355536683_679093_486">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_12_0EAPbeta_be00301_1161355559717_116889_533" ID="_12_0EAPbeta_be00301_1161355559717_116889_533" name="base_Port" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704911199_900094_9269"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_12_0EAPbeta_be00301_1161355559717_376213_532" ID="_12_0EAPbeta_be00301_1161355559717_376213_532" memberEnd="_12_0EAPbeta_be00301_1161355559717_804485_534 _12_0EAPbeta_be00301_1161355559717_116889_533">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_0EAPbeta_be00301_1161355559717_804485_534" ID="_12_0EAPbeta_be00301_1161355559717_804485_534" name="extension_ConstraintParameter" visibility="private" type="_12_0EAPbeta_be00301_1161355503976_51059_459" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_0_be00301_1164123483951_695645_2041" ID="_12_0_be00301_1164123483951_695645_2041" name="ValueProperty" _extensionEndOfType="_12_0_be00301_1164123486896_487524_2045">
+        <generalization xmi:id="_15_1EAPbeta_be00301_1202132198663_613343_3034" ID="_15_1EAPbeta_be00301_1202132198663_613343_3034">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_12_0_be00301_1164123486896_243192_2044" ID="_12_0_be00301_1164123486896_243192_2044" name="base_Property" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_15_0_be00301_1199378032543_992832_3096" ID="_15_0_be00301_1199378032543_992832_3096" name="ReferenceProperty" _extensionEndOfType="_15_0_be00301_1199378034525_582656_3100">
+        <generalization xmi:id="_15_0_be00301_1199378053158_299573_3146" ID="_15_0_be00301_1199378053158_299573_3146" general="_15_0_be00301_1199377821718_195894_2894"/>
+        <ownedAttribute xmi:id="_15_0_be00301_1199378034525_138530_3099" ID="_15_0_be00301_1199378034525_138530_3099" name="base_Property" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_15_0_be00301_1199377821718_195894_2894" ID="_15_0_be00301_1199377821718_195894_2894" name="AbstractReferenceProperty" _extensionEndOfType="_15_0_be00301_1199377823726_17435_2898">
+        <generalization xmi:id="_15_0_be00301_1199377940672_967413_3036" ID="_15_0_be00301_1199377940672_967413_3036" general="_11_5EAPbeta_be00301_1147424447149_890357_1052"/>
+        <ownedAttribute xmi:id="_15_0_be00301_1199377823726_427483_2897" ID="_15_0_be00301_1199377823726_427483_2897" name="base_Property" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_15_0_be00301_1199377823726_1514_2896" ID="_15_0_be00301_1199377823726_1514_2896" memberEnd="_15_0_be00301_1199377823726_17435_2898 _15_0_be00301_1199377823726_427483_2897">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_15_0_be00301_1199377823726_17435_2898" ID="_15_0_be00301_1199377823726_17435_2898" name="extension_" visibility="private" type="_15_0_be00301_1199377821718_195894_2894" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_12_0_be00301_1164123486896_808248_2043" ID="_12_0_be00301_1164123486896_808248_2043" memberEnd="_12_0_be00301_1164123486896_487524_2045 _12_0_be00301_1164123486896_243192_2044">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_0_be00301_1164123486896_487524_2045" ID="_12_0_be00301_1164123486896_487524_2045" name="extension_" visibility="private" type="_12_0_be00301_1164123483951_695645_2041" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_15_0_be00301_1199378022819_555939_3073" ID="_15_0_be00301_1199378022819_555939_3073" memberEnd="_15_0_be00301_1199378022819_936555_3075 _15_0_be00301_1199378022819_27464_3074">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_15_0_be00301_1199378022819_936555_3075" ID="_15_0_be00301_1199378022819_936555_3075" name="extension_" visibility="private" type="_15_0_be00301_1199378020836_340320_3071" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_5EAPbeta1_be00301_1176820525011_765111_2457" ID="_12_5EAPbeta1_be00301_1176820525011_765111_2457" name="contextSpecificDefaultValue" _extensionEndOfType="_12_5EAPbeta1_be00301_1176820558178_983523_2465">
+        <generalization xmi:id="_12_5EAPbeta1_be00301_1176820585568_525595_2468" ID="_12_5EAPbeta1_be00301_1176820585568_525595_2468">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_12_5EAPbeta1_be00301_1176820558178_293763_2464" ID="_12_5EAPbeta1_be00301_1176820558178_293763_2464" name="base_InstanceSpecification" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885251_933969_7897"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_12_5EAPbeta1_be00301_1176820601501_983301_2469" ID="_12_5EAPbeta1_be00301_1176820601501_983301_2469" name="path" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_5EAPbeta1_be00301_1176820732940_836660_2472" ID="_12_5EAPbeta1_be00301_1176820732940_836660_2472" name="contextSpecificValuesHolder" _extensionEndOfType="_12_5EAPbeta1_be00301_1176820787178_779640_2480">
+        <generalization xmi:id="_12_5EAPbeta1_be00301_1176820823019_419948_2483" ID="_12_5EAPbeta1_be00301_1176820823019_419948_2483">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_12_5EAPbeta1_be00301_1176820787178_520027_2479" ID="_12_5EAPbeta1_be00301_1176820787178_520027_2479" name="base_Diagram" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_12_5EAPbeta1_be00301_1176820829228_392085_2484" ID="_12_5EAPbeta1_be00301_1176820829228_392085_2484" name="instances" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885251_933969_7897"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_12_5EAPbeta1_be00301_1176820787178_218553_2478" ID="_12_5EAPbeta1_be00301_1176820787178_218553_2478" memberEnd="_12_5EAPbeta1_be00301_1176820787178_779640_2480 _12_5EAPbeta1_be00301_1176820787178_520027_2479">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_5EAPbeta1_be00301_1176820787178_779640_2480" ID="_12_5EAPbeta1_be00301_1176820787178_779640_2480" name="extension_contextSpecificValuesHolder" visibility="private" type="_12_5EAPbeta1_be00301_1176820732940_836660_2472" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_12_5EAPbeta1_be00301_1176820558178_351592_2463" ID="_12_5EAPbeta1_be00301_1176820558178_351592_2463" memberEnd="_12_5EAPbeta1_be00301_1176820558178_983523_2465 _12_5EAPbeta1_be00301_1176820558178_293763_2464">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_5EAPbeta1_be00301_1176820558178_983523_2465" ID="_12_5EAPbeta1_be00301_1176820558178_983523_2465" name="extension_contextSpecificDefaultValue" visibility="private" type="_12_5EAPbeta1_be00301_1176820525011_765111_2457" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" xmi:id="_18_0beta_903028d_1386255595028_904734_3975" ID="_18_0beta_903028d_1386255595028_904734_3975" name="deprecated elements">
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147430329106_6539_1367" ID="_11_5EAPbeta_be00301_1147430329106_6539_1367" name="Unit" _extensionEndOfType="_11_5EAPbeta_be00301_1147430331530_303487_1371 _16_6beta_17530432_1250150507937_570223_561">
+          <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147430331530_204796_1370" ID="_11_5EAPbeta_be00301_1147430331530_204796_1370" name="base_DataType" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885376_903292_7939"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1249976073375_561563_649" ID="_16_6beta_17530432_1249976073375_561563_649" name="symbol" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1249976086875_796585_653" ID="_16_6beta_17530432_1249976086875_796585_653" name="description" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1249976106703_55087_657" ID="_16_6beta_17530432_1249976106703_55087_657" name="definitionURI" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_15_1EAPbeta_be00301_1201764789902_754662_8961" ID="_15_1EAPbeta_be00301_1201764789902_754662_8961" name="quantityKind" visibility="private" type="_11_5EAPbeta_be00301_1147430310770_313444_1322"/>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1250150507937_934371_560" ID="_16_6beta_17530432_1250150507937_934371_560" name="base_InstanceSpecification" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885251_933969_7897"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147430331530_262371_1369" ID="_11_5EAPbeta_be00301_1147430331530_262371_1369" name="E_extension_Unit_base_DataType" memberEnd="_11_5EAPbeta_be00301_1147430331530_303487_1371 _11_5EAPbeta_be00301_1147430331530_204796_1370">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147430331530_303487_1371" ID="_11_5EAPbeta_be00301_1147430331530_303487_1371" name="extension_" visibility="private" type="_11_5EAPbeta_be00301_1147430329106_6539_1367" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_16_6beta_17530432_1250150507937_355920_559" ID="_16_6beta_17530432_1250150507937_355920_559" name="E_extension_Unit_base_InstanceSpecification" memberEnd="_16_6beta_17530432_1250150507937_570223_561 _16_6beta_17530432_1250150507937_934371_560">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_16_6beta_17530432_1250150507937_570223_561" ID="_16_6beta_17530432_1250150507937_570223_561" name="extension_Unit" visibility="private" type="_11_5EAPbeta_be00301_1147430329106_6539_1367" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147767840464_372327_467" ID="_11_5EAPbeta_be00301_1147767840464_372327_467" name="ConstraintProperty" _extensionEndOfType="_11_5EAPbeta_be00301_1147767843078_214011_471">
+          <generalization xmi:id="_15_0_be00301_1203061593335_450328_3017" ID="_15_0_be00301_1203061593335_450328_3017">
+            <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+          </generalization>
+          <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147767843078_452058_470" ID="_11_5EAPbeta_be00301_1147767843078_452058_470" name="base_Property" visibility="public">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147767843078_692381_469" ID="_11_5EAPbeta_be00301_1147767843078_692381_469" name="E_extension_ConstraintProperty_base_Property" memberEnd="_11_5EAPbeta_be00301_1147767843078_214011_471 _11_5EAPbeta_be00301_1147767843078_452058_470">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147767843078_214011_471" ID="_11_5EAPbeta_be00301_1147767843078_214011_471" name="extension_ConstraintProperty" visibility="public" type="_11_5EAPbeta_be00301_1147767840464_372327_467" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_11_5EAPbeta_be00301_1147430310770_313444_1322" ID="_11_5EAPbeta_be00301_1147430310770_313444_1322" name="QuantityKind" _extensionEndOfType="_16_6beta_17530432_1250150523421_209208_566 _11_5EAPbeta_be00301_1147430314726_767060_1326">
+          <ownedAttribute xmi:id="_11_5EAPbeta_be00301_1147430314726_227448_1325" ID="_11_5EAPbeta_be00301_1147430314726_227448_1325" name="base_DataType" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885376_903292_7939"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1249975973718_214413_637" ID="_16_6beta_17530432_1249975973718_214413_637" name="symbol" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1249975993171_670007_641" ID="_16_6beta_17530432_1249975993171_670007_641" name="description" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1249976021843_130031_645" ID="_16_6beta_17530432_1249976021843_130031_645" name="definitionURI" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_6beta_17530432_1250150523421_16394_565" ID="_16_6beta_17530432_1250150523421_16394_565" name="base_InstanceSpecification" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885251_933969_7897"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_16_6beta_17530432_1250150523421_724027_564" ID="_16_6beta_17530432_1250150523421_724027_564" name="E_extension_QuantityKind_base_InstanceSpecification" memberEnd="_16_6beta_17530432_1250150523421_209208_566 _16_6beta_17530432_1250150523421_16394_565">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_16_6beta_17530432_1250150523421_209208_566" ID="_16_6beta_17530432_1250150523421_209208_566" name="extension_QuantityKind" visibility="private" type="_11_5EAPbeta_be00301_1147430310770_313444_1322" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_11_5EAPbeta_be00301_1147430314726_171177_1324" ID="_11_5EAPbeta_be00301_1147430314726_171177_1324" name="E_extension_QuantityKind_base_DataType" memberEnd="_11_5EAPbeta_be00301_1147430314726_767060_1326 _11_5EAPbeta_be00301_1147430314726_227448_1325">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_11_5EAPbeta_be00301_1147430314726_767060_1326" ID="_11_5EAPbeta_be00301_1147430314726_767060_1326" name="extension_" visibility="private" type="_11_5EAPbeta_be00301_1147430310770_313444_1322" aggregation="composite"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_3beta_903028d_1437997589914_566513_13012" ID="_18_3beta_903028d_1437997589914_566513_13012" name="fmu" _extensionEndOfType="_18_3beta_903028d_1437997589928_663645_13015">
+        <ownedAttribute xmi:id="_18_3beta_903028d_1437997589927_350615_13014" ID="_18_3beta_903028d_1437997589927_350615_13014" name="base_Element" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884807_371561_7741"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1437997628411_983949_13021" ID="_18_3beta_903028d_1437997628411_983949_13021" name="FMIVersion" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1437997628620_840846_13022" ID="_18_3beta_903028d_1437997628620_840846_13022" name="GUID" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1437997629003_419723_13024" ID="_18_3beta_903028d_1437997629003_419723_13024" name="modelIdentifier" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1437997629204_953256_13025" ID="_18_3beta_903028d_1437997629204_953256_13025" name="modelName" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1437997629929_857267_13027" ID="_18_3beta_903028d_1437997629929_857267_13027" name="fileName" visibility="private">
+          <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_3beta_903028d_1437997589927_38097_13013" ID="_18_3beta_903028d_1437997589927_38097_13013" memberEnd="_18_3beta_903028d_1437997589927_350615_13014 _18_3beta_903028d_1437997589928_663645_13015">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_3beta_903028d_1437997589928_663645_13015" ID="_18_3beta_903028d_1437997589928_663645_13015" name="extension_unnamed1" visibility="private" type="_18_3beta_903028d_1437997589914_566513_13012" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_3beta_903028d_1443706744455_717294_13116" ID="_18_3beta_903028d_1443706744455_717294_13116" name="BlackBoxICDTable" _extensionEndOfType="_18_3beta_903028d_1443706841035_83981_13124">
+        <ownedAttribute xmi:id="_18_3beta_903028d_1443706841035_351816_13123" ID="_18_3beta_903028d_1443706841035_351816_13123" name="base_Diagram" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1443784065939_517082_13116" ID="_18_3beta_903028d_1443784065939_517082_13116" name="query" visibility="private">
+          <appliedStereotypeInstance xmi:id="_18_3beta_903028d_1443784091705_666607_13117" ID="_18_3beta_903028d_1443784091705_666607_13117">
+            <slot xmi:id="_18_5_3_128a0557_1522062358890_704987_8161" ID="_18_5_3_128a0557_1522062358890_704987_8161">
+              <value xsi:type="uml:LiteralBoolean" xmi:id="_18_5_3_128a0557_1522062358890_216476_8162" ID="_18_5_3_128a0557_1522062358890_216476_8162" visibility="public"/>
+              <definingFeature xsi:type="uml:Property" href="#_16_8beta_8f90291_1257409433754_937378_347"/>
+            </slot>
+            <slot xmi:id="_18_5_3_128a0557_1522062358891_728077_8163" ID="_18_5_3_128a0557_1522062358891_728077_8163">
+              <value xsi:type="uml:LiteralString" xmi:id="_18_5_3_128a0557_1522062358891_363800_8164" ID="_18_5_3_128a0557_1522062358891_363800_8164" visibility="public"/>
+              <definingFeature xsi:type="uml:Property" href="#_16_8beta_8f90291_1257409433754_781066_346"/>
+            </slot>
+            <classifier xsi:type="uml:Stereotype" href="#_16_8beta_8f90291_1257409433754_907450_344"/>
+          </appliedStereotypeInstance>
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884807_371561_7741"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_3beta_903028d_1443706841034_278526_13122" ID="_18_3beta_903028d_1443706841034_278526_13122" memberEnd="_18_3beta_903028d_1443706841035_351816_13123 _18_3beta_903028d_1443706841035_83981_13124">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_3beta_903028d_1443706841035_83981_13124" ID="_18_3beta_903028d_1443706841035_83981_13124" name="extension_SingleSystemICDTable" visibility="private" type="_18_3beta_903028d_1443706744455_717294_13116" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_3beta_903028d_1444114819517_80603_13121" ID="_18_3beta_903028d_1444114819517_80603_13121" name="WhiteBoxICDTable" _extensionEndOfType="_18_3beta_903028d_1444114819531_993004_13130">
+        <ownedAttribute xmi:id="_18_3beta_903028d_1444114819530_910514_13129" ID="_18_3beta_903028d_1444114819530_910514_13129" name="base_Diagram" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_18_3beta_903028d_1444114819520_238457_13122" ID="_18_3beta_903028d_1444114819520_238457_13122" name="query" visibility="private">
+          <appliedStereotypeInstance xmi:id="_18_3beta_903028d_1444114819520_688407_13123" ID="_18_3beta_903028d_1444114819520_688407_13123">
+            <slot xmi:id="_18_5_3_128a0557_1522062359738_673429_11639" ID="_18_5_3_128a0557_1522062359738_673429_11639">
+              <value xsi:type="uml:LiteralBoolean" xmi:id="_18_5_3_128a0557_1522062359738_809599_11640" ID="_18_5_3_128a0557_1522062359738_809599_11640" visibility="public"/>
+              <definingFeature xsi:type="uml:Property" href="#_16_8beta_8f90291_1257409433754_937378_347"/>
+            </slot>
+            <slot xmi:id="_18_5_3_128a0557_1522062359738_151831_11641" ID="_18_5_3_128a0557_1522062359738_151831_11641">
+              <value xsi:type="uml:LiteralString" xmi:id="_18_5_3_128a0557_1522062359739_657002_11642" ID="_18_5_3_128a0557_1522062359739_657002_11642" visibility="public"/>
+              <definingFeature xsi:type="uml:Property" href="#_16_8beta_8f90291_1257409433754_781066_346"/>
+            </slot>
+            <classifier xsi:type="uml:Stereotype" href="#_16_8beta_8f90291_1257409433754_907450_344"/>
+          </appliedStereotypeInstance>
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884807_371561_7741"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_3beta_903028d_1444114819530_556200_13128" ID="_18_3beta_903028d_1444114819530_556200_13128" memberEnd="_18_3beta_903028d_1444114819530_910514_13129 _18_3beta_903028d_1444114819531_993004_13130">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_3beta_903028d_1444114819531_993004_13130" ID="_18_3beta_903028d_1444114819531_993004_13130" name="extension_SingleSystemICDTable" visibility="private" type="_18_3beta_903028d_1444114819517_80603_13121" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_3_903028d_1448353080811_202046_13416" ID="_18_3_903028d_1448353080811_202046_13416" name="Pattern" _extensionEndOfType="_18_3_903028d_1448353080819_90287_13419">
+        <ownedAttribute xmi:id="_18_3_903028d_1448353080818_985403_13418" ID="_18_3_903028d_1448353080818_985403_13418" name="base_Element" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884807_371561_7741"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_3_903028d_1448353080818_834795_13417" ID="_18_3_903028d_1448353080818_834795_13417" memberEnd="_18_3_903028d_1448353080818_985403_13418 _18_3_903028d_1448353080819_90287_13419">
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_3_903028d_1448353080819_90287_13419" ID="_18_3_903028d_1448353080819_90287_13419" name="extension_unnamed1" visibility="private" type="_18_3_903028d_1448353080811_202046_13416" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" xmi:id="_18_5beta_8ca0285_1472105180520_515377_13686" ID="_18_5beta_8ca0285_1472105180520_515377_13686" name="aspects">
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_8ca0285_1472105180521_855854_13687" ID="_18_5beta_8ca0285_1472105180521_855854_13687" name="Optical" _extensionEndOfType="_18_5beta_8ca0285_1472105180524_567618_13699">
+          <generalization xmi:id="_18_5beta_8ca0285_1472105180524_482618_13698" ID="_18_5beta_8ca0285_1472105180524_482618_13698">
+            <general xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+          </generalization>
+          <ownedAttribute xmi:id="_18_5beta_8ca0285_1472105180524_902043_13697" ID="_18_5beta_8ca0285_1472105180524_902043_13697" name="base_Diagram" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_8ca0285_1472105180521_824030_13688" ID="_18_5beta_8ca0285_1472105180521_824030_13688" memberEnd="_18_5beta_8ca0285_1472105180524_902043_13697 _18_5beta_8ca0285_1472105180524_567618_13699">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_8ca0285_1472105180524_567618_13699" ID="_18_5beta_8ca0285_1472105180524_567618_13699" name="extension_optical" visibility="private" type="_18_5beta_8ca0285_1472105180521_855854_13687" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_8ca0285_1472105180522_325176_13689" ID="_18_5beta_8ca0285_1472105180522_325176_13689" name="Mechanical" _extensionEndOfType="_18_5beta_8ca0285_1472105180525_366695_13702">
+          <generalization xmi:id="_18_5beta_8ca0285_1472105180525_619482_13701" ID="_18_5beta_8ca0285_1472105180525_619482_13701">
+            <general xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+          </generalization>
+          <ownedAttribute xmi:id="_18_5beta_8ca0285_1472105180525_287331_13700" ID="_18_5beta_8ca0285_1472105180525_287331_13700" name="base_Diagram" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_8ca0285_1472105180522_920827_13690" ID="_18_5beta_8ca0285_1472105180522_920827_13690" memberEnd="_18_5beta_8ca0285_1472105180525_287331_13700 _18_5beta_8ca0285_1472105180525_366695_13702">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_8ca0285_1472105180525_366695_13702" ID="_18_5beta_8ca0285_1472105180525_366695_13702" name="extension_optical" visibility="private" type="_18_5beta_8ca0285_1472105180522_325176_13689" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_8ca0285_1472105180522_565498_13691" ID="_18_5beta_8ca0285_1472105180522_565498_13691" name="Software" _extensionEndOfType="_18_5beta_8ca0285_1472105180526_921514_13705">
+          <generalization xmi:id="_18_5beta_8ca0285_1472105180526_998565_13704" ID="_18_5beta_8ca0285_1472105180526_998565_13704">
+            <general xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+          </generalization>
+          <ownedAttribute xmi:id="_18_5beta_8ca0285_1472105180525_496448_13703" ID="_18_5beta_8ca0285_1472105180525_496448_13703" name="base_Diagram" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_8ca0285_1472105180523_209362_13692" ID="_18_5beta_8ca0285_1472105180523_209362_13692" memberEnd="_18_5beta_8ca0285_1472105180525_496448_13703 _18_5beta_8ca0285_1472105180526_921514_13705">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_8ca0285_1472105180526_921514_13705" ID="_18_5beta_8ca0285_1472105180526_921514_13705" name="extension_optical" visibility="private" type="_18_5beta_8ca0285_1472105180522_565498_13691" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_8ca0285_1472105180523_767826_13693" ID="_18_5beta_8ca0285_1472105180523_767826_13693" name="Logical" _extensionEndOfType="_18_5beta_8ca0285_1472105180526_44352_13708">
+          <generalization xmi:id="_18_5beta_8ca0285_1472105180526_419096_13707" ID="_18_5beta_8ca0285_1472105180526_419096_13707">
+            <general xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+          </generalization>
+          <ownedAttribute xmi:id="_18_5beta_8ca0285_1472105180526_680901_13706" ID="_18_5beta_8ca0285_1472105180526_680901_13706" name="base_Diagram" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_8ca0285_1472105180523_562408_13694" ID="_18_5beta_8ca0285_1472105180523_562408_13694" memberEnd="_18_5beta_8ca0285_1472105180526_680901_13706 _18_5beta_8ca0285_1472105180526_44352_13708">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_8ca0285_1472105180526_44352_13708" ID="_18_5beta_8ca0285_1472105180526_44352_13708" name="extension_optical" visibility="private" type="_18_5beta_8ca0285_1472105180523_767826_13693" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_8ca0285_1472105180523_835888_13695" ID="_18_5beta_8ca0285_1472105180523_835888_13695" name="Electrical" _extensionEndOfType="_18_5beta_8ca0285_1472105180527_1267_13711">
+          <generalization xmi:id="_18_5beta_8ca0285_1472105180526_491702_13710" ID="_18_5beta_8ca0285_1472105180526_491702_13710">
+            <general xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+          </generalization>
+          <ownedAttribute xmi:id="_18_5beta_8ca0285_1472105180526_830903_13709" ID="_18_5beta_8ca0285_1472105180526_830903_13709" name="base_Diagram" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_8ca0285_1472105180524_322709_13696" ID="_18_5beta_8ca0285_1472105180524_322709_13696" memberEnd="_18_5beta_8ca0285_1472105180526_830903_13709 _18_5beta_8ca0285_1472105180527_1267_13711">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_8ca0285_1472105180527_1267_13711" ID="_18_5beta_8ca0285_1472105180527_1267_13711" name="extension_optical" visibility="private" type="_18_5beta_8ca0285_1472105180523_835888_13695" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_9250292_1472716537533_763311_13799" ID="_18_5beta_9250292_1472716537533_763311_13799" name="Conceptual" _extensionEndOfType="_18_5beta_9250292_1472716537541_696265_13803">
+          <generalization xmi:id="_18_5beta_9250292_1472716537534_949370_13800" ID="_18_5beta_9250292_1472716537534_949370_13800">
+            <general xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+          </generalization>
+          <ownedAttribute xmi:id="_18_5beta_9250292_1472716537541_752074_13802" ID="_18_5beta_9250292_1472716537541_752074_13802" name="base_Diagram" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_9250292_1472716537541_585847_13801" ID="_18_5beta_9250292_1472716537541_585847_13801" memberEnd="_18_5beta_9250292_1472716537541_752074_13802 _18_5beta_9250292_1472716537541_696265_13803">
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_9250292_1472716537541_696265_13803" ID="_18_5beta_9250292_1472716537541_696265_13803" name="extension_Electrical" visibility="private" type="_18_5beta_9250292_1472716537533_763311_13799" aggregation="composite"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+  </uml:Package>
+  <uml:Package xmi:id="magicdraw_uml_standard_profile_v_0001" ID="magicdraw_uml_standard_profile_v_0001" name="UML Standard Profile">
+    <appliedStereotypeInstance xmi:id="_12_1_8f90291_1174411598625_504587_98" ID="_12_1_8f90291_1174411598625_504587_98">
+      <classifier xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+    </appliedStereotypeInstance>
+    <packagedElement xsi:type="uml:Profile" xmi:id="_be00301_1073394351331_445580_2" ID="_be00301_1073394351331_445580_2" name="MagicDraw Profile">
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_12_1_8f90291_1173963323875_662612_98" ID="_12_1_8f90291_1173963323875_662612_98" name="auxiliaryResource">
+        <generalization xmi:id="_15_0_8f90291_1196866634537_680603_98" ID="_15_0_8f90291_1196866634537_680603_98">
+          <general xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </generalization>
+        <ownedAttribute xmi:id="_12_1_8f90291_1173963939937_52316_99" ID="_12_1_8f90291_1173963939937_52316_99" name="base_Package" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704885298_713292_7913"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_12_1_8f90291_1173963939937_399630_100"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081772098_323897_274" ID="_10_0EAPbeta_be00301_1123081772098_323897_274">
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081772108_624594_276"/>
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081772098_411862_275"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081772108_624594_276" ID="_10_0EAPbeta_be00301_1123081772108_624594_276" name="extension_InvisibleStereotype" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_9_0_be00301_1108044721245_236588_411"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_12_1_8f90291_1173963939937_323574_98" ID="_12_1_8f90291_1173963939937_323574_98">
+        <memberEnd href="#_12_1_8f90291_1173963939937_399630_100"/>
+        <memberEnd href="#_12_1_8f90291_1173963939937_52316_99"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_12_1_8f90291_1173963939937_399630_100" ID="_12_1_8f90291_1173963939937_399630_100" name="extension_auxiliaryResource" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_12_1_8f90291_1173963323875_662612_98"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_9_0_be00301_1108044721245_236588_411" ID="_9_0_be00301_1108044721245_236588_411" name="InvisibleStereotype">
+        <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081772098_411862_275" ID="_10_0EAPbeta_be00301_1123081772098_411862_275" name="base_Element" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884807_371561_7741"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_10_0EAPbeta_be00301_1123081772108_624594_276"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Profile" xmi:id="_11_5_be00301_1153310565718_226811_161" ID="_11_5_be00301_1153310565718_226811_161" name="DSL Customization">
+        <packagedElement xsi:type="uml:Stereotype" xmi:id="_16_8beta_8f90291_1257409433754_907450_344" ID="_16_8beta_8f90291_1257409433754_907450_344" name="derivedPropertySpecification">
+          <ownedAttribute xmi:id="_16_8beta_8f90291_1257409433754_781066_346" ID="_16_8beta_8f90291_1257409433754_781066_346" name="expression" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_17_0_5beta_8ca0285_1371718963438_430146_3255"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_16_8beta_8f90291_1257409433754_937378_347" ID="_16_8beta_8f90291_1257409433754_937378_347" name="isReadOnly" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_12_0EAPbeta_be00301_1157529792739_987548_11"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_17_0_2_8f90291_1338982303822_462113_2113" ID="_17_0_2_8f90291_1338982303822_462113_2113" name="base_Property" visibility="private">
+            <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704884574_96724_7644"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_17_0_5beta_8bb027e_1376466387791_534392_3555" ID="_17_0_5beta_8bb027e_1376466387791_534392_3555" name="valueSetter" visibility="private">
+            <type xsi:type="uml:PrimitiveType" href="#_9_0_2_91a0295_1110274713995_297054_0"/>
+          </ownedAttribute>
+          <_extensionEndOfType href="#_17_0_2_8f90291_1338982303822_155139_2114"/>
+        </packagedElement>
+        <packagedElement xsi:type="uml:Extension" xmi:id="_17_0_2_8f90291_1338982303822_318657_2112" ID="_17_0_2_8f90291_1338982303822_318657_2112">
+          <memberEnd href="#_17_0_2_8f90291_1338982303822_462113_2113"/>
+          <memberEnd href="#_17_0_2_8f90291_1338982303822_155139_2114"/>
+          <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_17_0_2_8f90291_1338982303822_155139_2114" ID="_17_0_2_8f90291_1338982303822_155139_2114" name="extension_derivedPropertySpecification" visibility="private" aggregation="composite">
+            <type xsi:type="uml:Stereotype" href="#_16_8beta_8f90291_1257409433754_907450_344"/>
+          </ownedEnd>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Package" xmi:id="_9_0_2_be00301_1111670217596_336168_627" ID="_9_0_2_be00301_1111670217596_336168_627" name="datatypes">
+        <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_17_0_5beta_8ca0285_1371718963438_430146_3255" ID="_17_0_5beta_8ca0285_1371718963438_430146_3255" name="StructuredExpression"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="_18_5beta_8ca0285_1472103385490_751793_4211" ID="_18_5beta_8ca0285_1472103385490_751793_4211" name="aspect">
+        <ownedAttribute xmi:id="_18_5beta_8ca0285_1472103385516_98373_4218" ID="_18_5beta_8ca0285_1472103385516_98373_4218" name="base_Diagram" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1106296071977_61607_0"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_18_5beta_8ca0285_1472103385516_758386_4219"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_18_5beta_8ca0285_1472103385516_700892_4217" ID="_18_5beta_8ca0285_1472103385516_700892_4217">
+        <memberEnd href="#_18_5beta_8ca0285_1472103385516_98373_4218"/>
+        <memberEnd href="#_18_5beta_8ca0285_1472103385516_758386_4219"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_18_5beta_8ca0285_1472103385516_758386_4219" ID="_18_5beta_8ca0285_1472103385516_758386_4219" name="extension_conceptualView" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#_18_5beta_8ca0285_1472103385490_751793_4211"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Model" xmi:id="_9_0_be00301_1108053761194_467635_11463" ID="_9_0_be00301_1108053761194_467635_11463" name="UML2 Metamodel">
+      <appliedStereotypeInstance xmi:id="_10_0EAPbeta_be00301_1123081771126_233373_95" ID="_10_0EAPbeta_be00301_1123081771126_233373_95">
+        <classifier xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_601240_36"/>
+      </appliedStereotypeInstance>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885298_713292_7913" ID="_9_0_62a020a_1105704885298_713292_7913" name="Package"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884807_371561_7741" ID="_9_0_62a020a_1105704884807_371561_7741" name="Element"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704920340_825592_9329" ID="_9_0_62a020a_1105704920340_825592_9329" name="Model"/>
+      <packagedElement xsi:type="uml:Package" xmi:id="_12_0EAPbeta_be00301_1157529392394_202602_1" ID="_12_0EAPbeta_be00301_1157529392394_202602_1" name="PrimitiveTypes">
+        <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_9_0_2_91a0295_1110274713995_297054_0" ID="_9_0_2_91a0295_1110274713995_297054_0" name="String"/>
+        <packagedElement xsi:type="uml:PrimitiveType" xmi:id="_12_0EAPbeta_be00301_1157529792739_987548_11" ID="_12_0EAPbeta_be00301_1157529792739_987548_11" name="Boolean"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704911199_900094_9269" ID="_9_0_62a020a_1105704911199_900094_9269" name="Port"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704884574_96724_7644" ID="_9_0_62a020a_1105704884574_96724_7644" name="Property"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885376_903292_7939" ID="_9_0_62a020a_1105704885376_903292_7939" name="DataType"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1106296071977_61607_0" ID="_9_0_62a020a_1106296071977_61607_0" name="Diagram"/>
+      <packagedElement xsi:type="uml:Class" xmi:id="_9_0_62a020a_1105704885251_933969_7897" ID="_9_0_62a020a_1105704885251_933969_7897" name="InstanceSpecification"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Profile" xmi:id="_9_0_be00301_1108050582343_527400_10847" ID="_9_0_be00301_1108050582343_527400_10847" name="StandardProfile">
+      <packagedElement xsi:type="uml:Stereotype" xmi:id="magicdraw_1046861421236_601240_36" ID="magicdraw_1046861421236_601240_36" name="Metamodel">
+        <ownedAttribute xmi:id="_10_0EAPbeta_be00301_1123081771136_271406_98" ID="_10_0EAPbeta_be00301_1123081771136_271406_98" name="base_Model" visibility="private">
+          <type xsi:type="uml:Class" href="#_9_0_62a020a_1105704920340_825592_9329"/>
+        </ownedAttribute>
+        <_extensionEndOfType href="#_10_0EAPbeta_be00301_1123081771136_580423_99"/>
+      </packagedElement>
+      <packagedElement xsi:type="uml:Extension" xmi:id="_10_0EAPbeta_be00301_1123081771136_824883_97" ID="_10_0EAPbeta_be00301_1123081771136_824883_97">
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081771136_580423_99"/>
+        <memberEnd href="#_10_0EAPbeta_be00301_1123081771136_271406_98"/>
+        <ownedEnd xsi:type="uml:ExtensionEnd" xmi:id="_10_0EAPbeta_be00301_1123081771136_580423_99" ID="_10_0EAPbeta_be00301_1123081771136_580423_99" name="extension_metamodel" visibility="private" aggregation="composite">
+          <type xsi:type="uml:Stereotype" href="#magicdraw_1046861421236_601240_36"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+  </uml:Package>
+</xmi:XMI>
